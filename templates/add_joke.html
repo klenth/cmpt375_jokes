@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add joke</title>
+    </head>
+
+    <body>
+        <h1>Add joke</h1>
+        <form action="{% url 'add_joke' %}" method="post">
+            {% csrf_token %}
+            <textarea rows="6" cols="80" placeholder="Text of joke..." name="text"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

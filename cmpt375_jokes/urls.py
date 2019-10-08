@@ -15,7 +15,11 @@ Including another URLconf
 """
 # from django.contrib import admin
 from django.urls import path
+import jokes.views as views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    #path('admin/', admin.site.urls),
+    path('', views.list_jokes, name='list_jokes'),
+    path('joke/<int:id>', views.view_joke, name='view_joke'),
+    path('joke/add', views.add_joke, name='add_joke'),
 ]

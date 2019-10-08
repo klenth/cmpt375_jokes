@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>View joke #{{ joke.id }}</title>
+    </head>
+    <body>
+        <h1>Joke #{{ joke.id }}</h1>
+        <pre id="joke">{{ joke.text }}</pre>
+
+        <p>
+            <a href="{% url 'list_jokes' %}">Back to joke list</a>
+        </p>
+    </body>
+</html>
