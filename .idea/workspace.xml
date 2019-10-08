@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e719d20d-fc60-4437-a286-ff8cec652439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jokes/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_joke.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/list_jokes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/view_joke.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmpt375_jokes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmpt375_jokes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jokes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/jokes/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jokes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jokes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list_jokes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list_jokes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/view_joke.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/view_joke.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/cmpt375_jokes/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
               <folding>
                 <element signature="e#672#700#0" expanded="true" />
               </folding>
@@ -73,16 +69,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/view_joke.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/list_jokes.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -106,11 +102,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/jokes/models.py" />
-        <option value="$PROJECT_DIR$/templates/list_jokes.html" />
-        <option value="$PROJECT_DIR$/jokes/views.py" />
         <option value="$PROJECT_DIR$/templates/add_joke.html" />
         <option value="$PROJECT_DIR$/cmpt375_jokes/urls.py" />
         <option value="$PROJECT_DIR$/templates/view_joke.html" />
+        <option value="$PROJECT_DIR$/jokes/views.py" />
+        <option value="$PROJECT_DIR$/templates/list_jokes.html" />
       </list>
     </option>
   </component>
@@ -211,7 +207,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570560670758</updated>
-      <workItem from="1570560678729" duration="1104000" />
+      <workItem from="1570560678729" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1570560732745</created>
@@ -220,11 +216,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570560732745</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1570562005160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570562005160</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1104000" />
+    <option name="totallyTimeSpent" value="2183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -237,12 +240,12 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32948583" />
       <window_info anchor="bottom" id="manage.py@cmpt375_jokes" weight="0.32948583" />
-      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32948583" />
       <window_info anchor="bottom" id="Terminal" weight="0.22455405" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -279,7 +282,7 @@
     <entry file="file://$PROJECT_DIR$/cmpt375_jokes/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding>
             <element signature="e#672#700#0" expanded="true" />
           </folding>
@@ -293,10 +296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/list_jokes.html">
+    <entry file="file://$PROJECT_DIR$/templates/view_joke.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -310,10 +313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/view_joke.html">
+    <entry file="file://$PROJECT_DIR$/templates/list_jokes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

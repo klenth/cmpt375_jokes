@@ -6,6 +6,9 @@ from jokes.models import *
 def list_jokes(request):
     jokes = Joke.objects.order_by('date')
 
+    if 'q' in request.GET:
+        jokes = jokes.filter(text__icontains=request.GET['q'])
+
     context = {
         'jokes': jokes,
     }
