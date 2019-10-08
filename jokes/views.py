@@ -11,6 +11,7 @@ def list_jokes(request):
 
     context = {
         'jokes': jokes,
+        'search_string': request.GET.get('q', ''),
     }
 
     return render(request, 'list_jokes.html', context)
