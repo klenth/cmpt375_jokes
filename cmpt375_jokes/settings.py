@@ -25,7 +25,7 @@ SECRET_KEY = 'd&9rc2ke&1rfouos#9!nerzcq)0@b2bb7gfo@gsj-6_48q-4ok'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -119,3 +119,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+BASE_URL = 'https://cs.westminstercollege.edu/cmpt375/jokes'
+
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 25
+
+USE_X_FORWARDED_HOST = True
+FORCE_SCRIPT_NAME = '/cmpt375'

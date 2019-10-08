@@ -19,7 +19,7 @@ import jokes.views as views
 
 urlpatterns = [
     #path('admin/', admin.site.urls),
-    path('', views.list_jokes, name='list_jokes'),
-    path('joke/<int:id>', views.view_joke, name='view_joke'),
-    path('joke/add', views.add_joke, name='add_joke'),
+    path('jokes', views.list_jokes, name='list_jokes'),
+    path('jokes/joke/<int:id>', views.view_joke, name='view_joke'),
+    path('jokes/joke/add', views.add_joke, name='add_joke'),
 ]
